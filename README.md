@@ -1,7 +1,7 @@
 Webgrind
 ========
 
-**IMPORTANT:** This is a temporary fork of the Webgrind project until [issue #130](https://github.com/jokkedk/webgrind/issues/130) is fixed.
+**IMPORTANT:** This is a temporary fork of the Webgrind project until [issue #130](https://github.com/jokkedk/webgrind/issues/130) is fixed. Use the `xwpco/webgrind` Docker image to enable profiling results for `index.php` files.
 
 Webgrind is an [Xdebug](http://www.xdebug.org) profiling web frontend in PHP. It implements a subset of the features of [kcachegrind](https://kcachegrind.github.io/) and installs in seconds and works on all platforms. For quick'n'dirty optimizations it does the job. Here's a screenshot showing the output from profiling:
 
