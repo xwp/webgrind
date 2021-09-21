@@ -4,6 +4,7 @@ services:
   webgrind:
     restart: unless-stopped
     image: xwpco/webgrind:latest
+    build: .
     ports:
       - "127.0.0.1:80:80"
     volumes:
